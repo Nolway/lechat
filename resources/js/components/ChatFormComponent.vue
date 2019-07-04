@@ -41,7 +41,6 @@
                     body: this.body.trim()
                 }).catch((err) => {
                     console.log('failed');
-                    console.log(err);
                 });
                 this.body = null;
             },
