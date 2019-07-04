@@ -25,7 +25,7 @@
             Event.$on('added_message', (message) => {
                 this.messages.push(message);
                 if(message.selfMessage) {
-                    this.$refs.message.scrollTo(0,this.$refs.message.scrollHeight);
+                    this.$refs.message.scrollTo(0, this.$refs.message.scrollHeight);
                 }
             });
         }

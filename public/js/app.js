@@ -1785,7 +1785,6 @@ __webpack_require__.r(__webpack_exports__);
         body: this.body.trim()
       })["catch"](function (err) {
         console.log('failed');
-        console.log(err);
       });
       this.body = null;
     },
